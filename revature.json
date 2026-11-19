@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ApplicationContextTest.java",
+      "testCases": [
+        {
+          "methodName": "testGetElectricPoweredBean",
+          "label": "Verify ElectricEngine bean is loaded",
+          "description": "Ensures that the ElectricEngine bean is correctly instantiated and injected by the Spring ApplicationContext."
+        },
+        {
+          "methodName": "testGetGasPoweredBean",
+          "label": "Verify GasEngine bean is loaded",
+          "description": "Ensures that the GasEngine bean is correctly instantiated and injected by the Spring ApplicationContext."
+        },
+        {
+          "methodName": "testGetNuclearPoweredBean",
+          "label": "Verify NuclearEngine bean is loaded",
+          "description": "Ensures that the NuclearEngine bean is correctly instantiated and injected by the Spring ApplicationContext."
+        }
+      ]
+    }
+  ]
+}
